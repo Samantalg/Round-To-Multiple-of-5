@@ -1,4 +1,4 @@
-export const roundToNext5 = (value) => {
+const roundToNext5 = (value) => {
     if (!typeof(value) == Number) {
         console.log('Entrada no valida');
     }
@@ -18,3 +18,5 @@ export const roundToNext5 = (value) => {
         return num;
     }
 };
+
+module.exports = roundToNext5;
