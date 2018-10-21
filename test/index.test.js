@@ -1,4 +1,4 @@
-const num = require("../src/js/index.js");
+import { num } from "../src/js/index.js";
 
 describe("Round to Multiple of Five", () => {
     test("should return 0 for n = 0", () => {
