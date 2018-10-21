@@ -1,4 +1,4 @@
-<h1>Round to the next multiple of 5</h1>
+# Round to the next multiple of 5
 
 Given an integer as input, can you round it to the next (meaning, "higher") 5?
 
