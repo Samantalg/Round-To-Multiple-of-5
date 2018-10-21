@@ -1,4 +1,5 @@
-import { roundToNext5 } from "../src/js/index.js";
+// import {roundToNext5} from '../src/js/index';
+const roundToNext5 = require("../src/js/index.js");
 
 describe("Round to Multiple of Five", () => {
     test("should return 0 for n = 0", () => {
@@ -17,6 +18,12 @@ describe("Round to Multiple of Five", () => {
         expect(roundToNext5(7)).toBe(10);
     });
     test("should return 40 for n = 39", () => {
-        expect(roundToNext5(40)).toBe(39);
+        expect(roundToNext5(39)).toBe(40);
+    });
+    test('should return 0 for n = -2', () => {
+        expect(roundToNext5(-2)).toBe(0);
+    });
+    test('should return -5 for n = -5', () => {
+        expect(roundToNext5(-5)).toBe(-5);
     });
 });
