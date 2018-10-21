@@ -4,22 +4,13 @@
   "description": "<h1>Round to the next multiple of 5</h1>",
   "main": "index.js",
   "directories": {
-    "test": "jest"
+    "test": "test"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Samantalg/Round-To-Multiple-of-5.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Samantalg/Round-To-Multiple-of-5/issues"
-  },
-  "homepage": "https://github.com/Samantalg/Round-To-Multiple-of-5#readme",
-  "keywords": [],
   "devDependencies": {
     "jest": "^23.6.0"
   }
