@@ -7,11 +7,24 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "test"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^23.6.0"
+    "@babel/core": "^7.0.0-beta.46",
+    "@babel/preset-env": "^7.0.0-beta.46",
+    "@types/jest": "^22.2.3",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-install": "2.1.0",
+    "babel-jest": "^22.4.3",
+    "jest": "^23.6.0",
+    "regenerator-runtime": "^0.11.1"
+  },
+  "jest": {
+    "testURL": "http://localhost",
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    }
   }
 }
