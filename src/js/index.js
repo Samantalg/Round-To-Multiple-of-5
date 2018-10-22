@@ -14,7 +14,7 @@ const roundToNext5 = (value) => {
     } 
     else {
         let k = value%5;
-        let num = value - 5 - k; 
+        let num = value - 5 + k; 
         return num;
     }
 };
